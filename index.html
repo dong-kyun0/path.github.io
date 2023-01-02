@@ -67,6 +67,17 @@
 .menu li:nth-child(4) a::before{ content: '\e8cc'; }
 .menu li:nth-child(5) a::before{ content: '\e87d'; }
 .menu li:nth-child(6) a::before{ content: '\e8b8'; }
+    
+ @media screen and (max-width:1023px) {
+    .menu { /* 1단계 */
+        width: 60px;
+    }
+}
+@media screen and (max-width:560px) {
+    .menu #expand-menu:not(:checked) ~ ul { /* 2단계 */
+        display: none;
+    }
+}
   </style>
   <body>
     <h1>개발일지
