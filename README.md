@@ -1,1 +1,1 @@
-# path.github.io
+# Kinoy's TIL 일지
